@@ -1,0 +1,36 @@
+name: afm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - jupyter
+  - opencv
+  - cairo
+  - pillow
+  - pyyaml
+  - setuptools
+  - pip
+  - pip:
+    - contourpy==1.2.1
+    - cycler==0.12.1
+    - ffmpeg==1.4
+    - ffmpeg-python==0.2.0
+    - fonttools==4.53.0
+    - freetype-py==2.4.0
+    - future==1.0.0
+    - imageio==2.34.1
+    - imageio-ffmpeg==0.5.1
+    - importlib-resources==6.4.0
+    - kiwisolver==1.4.5
+    - matplotlib==3.9.0
+    - pyglet==1.5.27
+    - pyopengl==3.1.0
+    - pyparsing==3.1.2
+    - pyrender==0.1.45
+    - trimesh==4.4.1
+    - tqdm==4.66.4
